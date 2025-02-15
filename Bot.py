@@ -1,3 +1,4 @@
+cd path/to/your/project
 import requests
 import logging
 from telegram import Update

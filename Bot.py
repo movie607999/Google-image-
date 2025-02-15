@@ -6,7 +6,7 @@ from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
 
 IMDB_API_KEY = "import requests
 
-IMDB_API_KEY = "1492c80ab5mshb1f8de5ef9db734p1baa7fjsnd403fecaf8d1"
+IMDB_API_KEY = "ca6dbf9407msh61bd2e5c7e991dap1de329jsn47ad675ee76d"
 
 def get_movie_details(movie_name):
     url = f"https://imdb8.p.rapidapi.com/auto-complete?q={movie_name}"
@@ -31,7 +31,7 @@ def get_movie_details(movie_name):
 movie_name = "Inception"
 title, rating, image = get_movie_details(movie_name)
 print(f"Title: {title}\nRating: {rating}\nImage: {image}")"
-TELEGRAM_BOT_TOKEN = "7912774652:AAEMfv4N2gpzNyF5pgxMdrO957d-wxRHeHI"
+TELEGRAM_BOT_TOKEN = "AAHN7bOTRnjStdedu1wtce-7qHbXC4AqBFo"
 
 # IMDb API থেকে মুভির তথ্য আনার ফাংশন
 def get_movie_info(movie_name):
